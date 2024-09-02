@@ -1,0 +1,23 @@
+{
+    "name": "nextjs14-ui-cli",
+    "version": "1.0.0",
+    "description": "CLI for adding UI components to Next.js 14 projects",
+    "main": "dist/index.js",
+    "bin": {
+      "nextjs14-ui": "./dist/index.js"
+    },
+    "scripts": {
+      "build": "tsc",
+      "start": "node dist/index.js"
+    },
+    "dependencies": {
+      "fs-extra": "^10.1.0",
+      "prompts": "^2.4.2"
+    },
+    "devDependencies": {
+      "@types/fs-extra": "^9.0.13",
+      "@types/node": "^16.11.12",
+      "@types/prompts": "^2.0.14",
+      "typescript": "^4.5.3"
+    }
+  }

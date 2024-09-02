@@ -1,0 +1,24 @@
+/* button-sketch.css - Styles for the sketch effect */
+.button-sketch {
+    font-family: 'Gloria Hallelujah', cursive; /* Include this font in your library */
+    transition: box-shadow 0.2s ease;
+    border-radius: 10px;
+  }
+  
+  .button-sketch:hover {
+    box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.8); /* Creates a sketchy shadow effect */
+  }
+  
+  .button-sketch:active {
+    box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.8); /* Reduces shadow on click */
+  }
+  
+  .button-sketch::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px dashed rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  
