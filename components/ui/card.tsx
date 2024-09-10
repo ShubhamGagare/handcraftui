@@ -1,7 +1,7 @@
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
-import { getRandomBorderRadius } from "./randomBorderRadius";
+import { getRandomBorderRadius } from "@/lib/randomBorderRadius";
 const borderRadiusStyles = getRandomBorderRadius();
 const Card = React.forwardRef<
   HTMLDivElement,
@@ -15,6 +15,7 @@ const Card = React.forwardRef<
     )}
     style={borderRadiusStyles}
 
+    
     {...props}
   />
 ))
