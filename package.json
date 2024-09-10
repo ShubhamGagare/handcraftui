@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "Beautifully handcrafted components that you can copy and paste into your apps. Accessible. Customizable. ",
   "scripts": {
-    "build:cli": "cd cli && npm install && npm run build",
+    "build:cli": "cd cli && npm install && npm run build"
   },
   "bin": {
     "handcraft-ui": "./cli/dist/index.js"  
