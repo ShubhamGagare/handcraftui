@@ -4,7 +4,7 @@
     "description": "CLI for adding UI components to Next.js 14 projects",
     "main": "dist/index.js",
     "bin": {
-      "nextjs14-ui": "./dist/index.js"
+      "add": "./dist/index.js"
     },
     "scripts": {
       "build": "tsc",
